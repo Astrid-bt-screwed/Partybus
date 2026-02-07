@@ -1,0 +1,55 @@
+{
+  "summary": {
+    "tests_run": 4,
+    "tests_passed": 0,
+    "tests_failed": 4,
+    "success_rate": 0.0,
+    "timestamp": "2026-02-07T15:03:16.636339"
+  },
+  "test_results": [
+    {
+      "test_name": "Health Check",
+      "method": "GET",
+      "endpoint": "api/health",
+      "expected_status": 200,
+      "actual_status": 404,
+      "success": false,
+      "response_time": 0.06949,
+      "url": "https://app-7ca15635-5fe6-43c7-a5f0-860e796650a7.preview.emergentagent.com/api/health",
+      "error_data": "404 page not found\n"
+    },
+    {
+      "test_name": "Contact Form Submission",
+      "method": "POST",
+      "endpoint": "api/contact",
+      "expected_status": 200,
+      "actual_status": 404,
+      "success": false,
+      "response_time": 0.032904,
+      "url": "https://app-7ca15635-5fe6-43c7-a5f0-860e796650a7.preview.emergentagent.com/api/contact",
+      "error_data": "404 page not found\n"
+    },
+    {
+      "test_name": "Contact Form Validation (Invalid Data)",
+      "method": "POST",
+      "endpoint": "api/contact",
+      "expected_status": 422,
+      "actual_status": 404,
+      "success": false,
+      "response_time": 0.033264,
+      "url": "https://app-7ca15635-5fe6-43c7-a5f0-860e796650a7.preview.emergentagent.com/api/contact",
+      "error_data": "404 page not found\n"
+    },
+    {
+      "test_name": "Get Contact Requests",
+      "method": "GET",
+      "endpoint": "api/contact-requests",
+      "expected_status": 200,
+      "actual_status": 404,
+      "success": false,
+      "response_time": 0.036278,
+      "url": "https://app-7ca15635-5fe6-43c7-a5f0-860e796650a7.preview.emergentagent.com/api/contact-requests",
+      "error_data": "404 page not found\n"
+    }
+  ]
+}
