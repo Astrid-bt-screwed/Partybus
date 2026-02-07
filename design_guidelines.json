@@ -1,0 +1,162 @@
+{
+  "brand_identity": {
+    "name": "PARTYBOSS",
+    "tagline": "Feier stilvoll auf Rädern!",
+    "tone": "High-Energy, Exclusive, Nightlife, Unapologetic",
+    "archetype": "Electric & Neon",
+    "keywords": ["Party", "Neon", "Night", "Luxury", "Bass", "Speed"]
+  },
+  "typography": {
+    "headings": {
+      "font_family": "Anton, sans-serif",
+      "weight": "400",
+      "usage": "Main headlines, Hero text, Section titles",
+      "letter_spacing": "tracking-wide",
+      "transform": "uppercase"
+    },
+    "subheadings": {
+      "font_family": "Unbounded, sans-serif",
+      "weight": "700",
+      "usage": "Card titles, Feature highlights, Price tags",
+      "letter_spacing": "tracking-wider"
+    },
+    "body": {
+      "font_family": "Manrope, sans-serif",
+      "weight": "400",
+      "usage": "Paragraphs, Descriptions, UI elements",
+      "line_height": "leading-relaxed"
+    },
+    "google_fonts_import": "https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@300;400;600;800&family=Unbounded:wght@400;700&display=swap"
+  },
+  "colors": {
+    "background": {
+      "main": "#050505",
+      "secondary": "#0A0A0A",
+      "surface": "#121212"
+    },
+    "primary": {
+      "main": "#D900FF",
+      "glow": "0 0 20px #D900FF",
+      "hover": "#E033FF"
+    },
+    "secondary": {
+      "main": "#00F0FF",
+      "glow": "0 0 20px #00F0FF"
+    },
+    "accent": {
+      "purple": "#7000FF",
+      "dark_purple": "#1A0B2E"
+    },
+    "text": {
+      "primary": "#EDEDED",
+      "secondary": "#A1A1AA",
+      "muted": "#52525B"
+    },
+    "gradients": {
+      "hero": "linear-gradient(to right, #7000FF, #D900FF)",
+      "glass": "linear-gradient(145deg, rgba(255,255,255,0.05) 0%, rgba(255,255,255,0.01) 100%)"
+    }
+  },
+  "layout": {
+    "container": {
+      "max_width": "max-w-7xl",
+      "padding": "px-6 md:px-12 lg:px-24"
+    },
+    "spacing": {
+      "section_gap": "py-24 md:py-32",
+      "element_gap": "gap-8"
+    },
+    "grid_system": {
+      "marketing": "grid grid-cols-1 md:grid-cols-12 gap-8",
+      "cards": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+    },
+    "border_radius": {
+      "cards": "rounded-2xl",
+      "buttons": "rounded-full"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#D900FF] text-white font-bold uppercase tracking-wider hover:bg-[#E033FF] hover:shadow-[0_0_30px_rgba(217,0,255,0.6)] transition-all duration-300 transform hover:-translate-y-1",
+      "secondary": "bg-transparent border border-[#00F0FF] text-[#00F0FF] font-bold uppercase tracking-wider hover:bg-[#00F0FF] hover:text-black hover:shadow-[0_0_30px_rgba(0,240,255,0.4)] transition-all duration-300"
+    },
+    "cards": {
+      "glass": "bg-white/5 backdrop-blur-xl border border-white/10 hover:border-[#D900FF]/50 transition-all duration-500 group overflow-hidden relative",
+      "neon_border": "relative p-[1px] bg-gradient-to-r from-[#D900FF] to-[#00F0FF] rounded-2xl overflow-hidden"
+    },
+    "navbar": {
+      "style": "fixed top-4 left-1/2 -translate-x-1/2 w-[95%] max-w-5xl bg-black/50 backdrop-blur-2xl border border-white/10 rounded-full z-50 px-8 py-4 flex justify-between items-center"
+    }
+  },
+  "visual_enhancers": {
+    "glassmorphism": "backdrop-blur-xl bg-white/5 border border-white/10",
+    "neon_glow": "drop-shadow-[0_0_10px_rgba(217,0,255,0.5)]",
+    "noise_texture": "url('https://grainy-gradients.vercel.app/noise.svg')",
+    "gradients": "Use radial gradients for background spots: radial-gradient(circle at 50% 50%, rgba(112, 0, 255, 0.15), transparent 70%)"
+  },
+  "image_urls": {
+    "hero": {
+      "main": "https://images.unsplash.com/photo-1569822904074-4c121147e950?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwxfHxwYXJ0eSUyMGJ1cyUyMGludGVyaW9yJTIwbmVvbiUyMGxpZ2h0cyUyMHBlb3BsZSUyMGRhbmNpbmd8ZW58MHx8fHwxNzcwNDc1NzI5fDA&ixlib=rb-4.1.0&q=85",
+      "alt": "Party bus interior with neon lights and people dancing"
+    },
+    "buses": [
+      {
+        "url": "https://images.unsplash.com/photo-1642443055969-282b3416a333?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBwYXJ0eSUyMGJ1cyUyMGV4dGVyaW9yJTIwbmlnaHQlMjBjaXR5JTIwc3RyZWV0fGVufDB8fHx8MTc3MDQ3NTczMnww&ixlib=rb-4.1.0&q=85",
+        "alt": "Luxury Party Bus Exterior",
+        "category": "Exterior"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1764737486439-b72fa3b87f79?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1Nzh8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBwYXJ0eSUyMGJ1cyUyMGV4dGVyaW9yJTIwbmlnaHQlMjBjaXR5JTIwc3RyZWV0fGVufDB8fHx8MTc3MDQ3NTczMnww&ixlib=rb-4.1.0&q=85",
+        "alt": "Double Decker Party Bus",
+        "category": "Double Decker"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1545185105-a81262517cf4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwzfHxwYXJ0eSUyMGJ1cyUyMGludGVyaW9yJTIwbmVvbiUyMGxpZ2h0cyUyMHBlb3BsZSUyMGRhbmNpbmd8ZW58MHx8fHwxNzcwNDc1NzI5fDA&ixlib=rb-4.1.0&q=85",
+        "alt": "Neon Interior Green/Orange",
+        "category": "Interior"
+      }
+    ],
+    "events": {
+      "champagne": "https://images.unsplash.com/photo-1645300577030-34e1ffd263a0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Njd8MHwxfHNlYXJjaHwzfHxjaGFtcGFnbmUlMjB0b2FzdCUyMHBhcnR5JTIwbmlnaHQlMjBjbHVifGVufDB8fHx8MTc3MDQ3NTczNnww&ixlib=rb-4.1.0&q=85",
+      "nightlife": "https://images.unsplash.com/photo-1756727532096-7e5749454c43?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTV8MHwxfHNlYXJjaHwyfHxwYXJ0eSUyMGJ1cyUyMGludGVyaW9yJTIwbmVvbiUyMGxpZ2h0cyUyMHBlb3BsZSUyMGRhbmNpbmd8ZW58MHx8fHwxNzcwNDc1NzI5fDA&ixlib=rb-4.1.0&q=85"
+    },
+    "cities": {
+      "vienna": "https://images.unsplash.com/photo-1570965233697-746a7becf87f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDV8MHwxfHNlYXJjaHwxfHx2aWVubmElMjBhdXN0cmlhJTIwbmlnaHQlMjBza3lsaW5lfGVufDB8fHx8MTc3MDQ3NTczOXww&ixlib=rb-4.1.0&q=85"
+    }
+  },
+  "content_strategy": {
+    "language": "German",
+    "tone": "Du-Form (Informal, energetic)",
+    "key_phrases": [
+      "Feier stilvoll auf Rädern!",
+      "Dein Partyboss",
+      "Unvergessliche Nächte",
+      "Der Club auf Rädern"
+    ]
+  },
+  "instructions_to_main_agent": [
+    "1. INITIALIZATION: Ensure Tailwind is configured with the custom colors and fonts defined above.",
+    "2. DARK MODE: Force dark mode. Do not implement a light mode toggle. The brand is strictly nightlife.",
+    "3. COMPONENTS: Use Shadcn UI for complex interactions (Forms, Dialogs, Datepickers) but heavily customize them to remove the 'default Vercel look'. Apply the 'glass' and 'neon_border' styles.",
+    "4. LAYOUT: Do not use simple rows. Use the 'Tetris Grid' for the bus showcase. Overlap elements slightly to create depth.",
+    "5. IMAGES: Use the provided Unsplash URLs. Do not use placeholders.",
+    "6. ANIMATION: Use Framer Motion for entrance animations. Fade up with a slight scale effect. Hover states must be snappy.",
+    "7. NAVIGATION: Implement a sticky glassmorphism navbar. It should shrink slightly on scroll.",
+    "8. FORMS: The contact form must use EmailJS. Style inputs with transparent backgrounds and bottom borders only (Material/Cyberpunk style).",
+    "9. ROUTING: Ensure React Router is set up for all pages: Home, Events, Buses, BusDetail, Prices, Booking, Cities, About, Contact, Blog.",
+    "10. MOBILE: Ensure all text is legible on mobile. Stack the Tetris grid into a single column but keep the visual hierarchy."
+  ],
+  "universal_guidelines": [
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur).",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms.",
+    "You MUST NOT center align the app container.",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations.",
+    "NEVER use AI assistant Emoji characters like 🤖🧠 etc.",
+    "Every interaction needs micro-animations.",
+    "Use 2-3x more spacing than feels comfortable.",
+    "Subtle grain textures and noise overlays separate good from extraordinary."
+  ]
+}
