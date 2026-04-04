@@ -2,21 +2,12 @@
 
 ## Original Problem Statement
 Build a PARTYBOSS party bus rental website for Austria based on reference site partyboss.at. Requirements:
-- Stylish fonts
-- Modern, up-to-date design
+- Stylish fonts, modern design
 - Each section on SEPARATE PAGE (not scrolling)
-- Dark background (NOT light)
-- Festive, party-like, evening/night vibe
+- Dark background, festive nightclub vibe
 - EmailJS for contact form notifications
-- SEO-optimized content for Oberösterreich (Linz, Wels, Steyr, Braunau am Inn)
-- Use 3 user-provided photos (branded PARTYBUS-OÖ bus, school bus, double-decker)
-
-## User Personas
-1. **Young Adults (18-35)** - Planning JGA, bachelor/bachelorette parties, birthday celebrations
-2. **Corporate Event Planners** - Organizing company parties, Christmas events, team building
-3. **Students** - Maturaball afterparties, student parties
-4. **Wedding Parties** - After-wedding celebrations, guest transport
-5. **Oberösterreich Locals** - Linz, Wels, Steyr, Braunau am Inn residents looking for local party bus rental
+- SEO-optimized content for Oberösterreich and Wien
+- AI-indexable structured data
 
 ## Core Requirements (Static)
 - Multi-page React website (not single-page scrolling)
@@ -24,62 +15,57 @@ Build a PARTYBOSS party bus rental website for Austria based on reference site p
 - German language content
 - Contact form with backend storage
 - Mobile responsive design
-- SEO-optimized pages for Austrian cities (focus: Oberösterreich)
+- SEO-optimized pages for Austrian cities and fleet
+- Schema.org structured data for AI indexing
 
 ## What's Been Implemented
 
 ### Feb 7, 2026 - Initial Build
-- Project scaffolding and environment setup (React + FastAPI)
-- Extracted Word doc content and mapped to siteData.js
-- UI/UX Design system (Dark/Neon theme)
-- Multi-page React routing (Home, Kontakt, Preise, Partybusse, Events, Cities)
-- Replaced CDN images with Unsplash images
-- Created PRD
+- Project scaffolding (React + FastAPI + MongoDB)
+- Multi-page routing, dark neon theme
+- All 10 bus listings, event pages, city pages
+- Contact form with backend storage
 
-### Feb 8, 2026 - Homepage SEO Redesign & City Expansion
-- **Homepage completely redesigned** with SEO-optimized content for Oberösterreich
-  - New H1: "Partybus mieten in Oberösterreich | Dein Fest auf Rädern in Linz, Wels & Steyr"
-  - Block 1: About Us with 4 advantages (Soundsystem, Lichtshow, Gaming-Zone, Flexibilität)
-  - Block 2: Geographic Focus with 4 locations (Linz, Wels, Steyr, Braunau am Inn)
-  - Block 3: Social Proof with testimonial and 3 "Why Us" cards
-  - Provocative CTA: "Nicht nach Wien fahren — feiere bei dir!"
-- **3 user-uploaded photos integrated**: branded PARTYBUS-OÖ bus (hero), school bus (about section), double-decker (geographic section)
-- **2 new city pages created**: Wels (/partybus-wels), Steyr (/partybus-steyr)
-- **Cities expanded** from 4 to 6: Linz, Wels, Steyr, Wien, Salzburg, Graz
-- All tests passed (100% frontend)
+### Feb 8, 2026 - Homepage SEO Redesign
+- Homepage redesigned with Oberösterreich SEO content
+- 3 user-uploaded photos integrated
+- 2 new city pages (Wels, Steyr)
+- Cities expanded from 4 to 6
 
-### Frontend (React)
-- **Home Page**: Hero, About/Uniqueness, Geographic Focus (SEO), Social Proof, Events, Buses, Regions, FAQ, CTA
-- **Partybusse Page**: Grid of 10 party buses
-- **Bus Detail Pages**: Individual bus pages
-- **Event Pages**: JGA, Geburtstag, Firmenfeier, Maturaball, Hochzeit
-- **City Pages**: Wien, Linz, Wels, Steyr, Salzburg, Graz
-- **Preise Page**: 3 pricing packages
-- **Ablauf Page**: 4-step booking process
-- **Über uns Page**: Company story
-- **Kontakt Page**: Contact form
+### Feb 8, 2026 - Fleet Page SEO Overhaul
+- **Partybusse page completely redesigned** for AI-indexability:
+  - New H1: "Partybus Flotte Wien — 10 Partybusse von 8 bis 50 Personen"
+  - Quick Answer Block for AI snippets
+  - Comparison table (all buses sorted by capacity with categories)
+  - Occasion-based recommendations (JGA, Firmenevents, Geburtstage, Hochzeiten)
+  - Standard equipment section (6 items)
+  - Detailed bus descriptions (10 buses with structured format)
+  - Bus-specific FAQ (7 questions)
+  - 4-step booking process
+  - Schema.org JSON-LD (ItemList + Vehicle, FAQPage)
+- **Bus data enhanced** with: Roman numerals (I-X), categories (Mini/Mittel/Groß/XL/XXL), specialEquipment, detailDescription, bestFor fields
 
-### Backend (FastAPI)
-- `/api/health` - Health check
-- `/api/contact` - POST contact form submissions (MongoDB)
-- `/api/contact-requests` - GET all contact requests
-
-### Design System
-- **Fonts**: Anton (headlines), Unbounded (subheadings), Manrope (body)
-- **Colors**: #050505 (bg), #D900FF (primary neon pink), #00F0FF (secondary cyan)
-- **Effects**: Glassmorphism, neon glow, gradient borders
+### Architecture
+- Frontend: React + Tailwind + Framer Motion
+- Backend: FastAPI + MongoDB
+- Design: Anton/Unbounded/Manrope fonts, #050505 bg, #D900FF primary, #00F0FF secondary
 
 ## Prioritized Backlog
 
 ### P0 (Critical) - DONE
 - [x] Multi-page website structure
 - [x] Dark theme with neon colors
-- [x] All 10 bus listings with images
+- [x] All 10 bus listings with enhanced data
 - [x] Contact form with backend storage
 - [x] Mobile responsive design
 - [x] SEO-optimized homepage for Oberösterreich
 - [x] User-provided photos integrated
 - [x] Wels & Steyr city pages
+- [x] Fleet page comparison table
+- [x] Schema.org JSON-LD markup
+- [x] Fleet FAQ (7 bus-specific questions)
+- [x] Occasion-based bus recommendations
+- [x] Booking process visualization
 
 ### P1 (High Priority) - PENDING
 - [ ] EmailJS integration (requires user API keys: Service ID, Template ID, Public Key)
@@ -88,18 +74,18 @@ Build a PARTYBOSS party bus rental website for Austria based on reference site p
 
 ### P2 (Medium Priority)
 - [ ] Blog/Magazine section
-- [ ] Online booking calendar integration
 - [ ] WhatsApp click-to-chat button
 - [ ] Cookie consent banner
+- [ ] Online booking calendar
 
-### P3 (Future Enhancements)
+### P3 (Future)
 - [ ] Live availability checker
 - [ ] Price calculator
-- [ ] Virtual bus tour (360° images)
+- [ ] Virtual bus tour (360°)
 - [ ] Multi-language support (EN)
 
 ## Next Tasks
-1. User needs to configure EmailJS (Service ID, Template ID, Public Key)
-2. Add real bus images from the client
-3. Collect and add customer testimonials
-4. SEO optimization with proper meta tags for all pages
+1. EmailJS integration (user keys needed)
+2. Add real bus images from client
+3. SEO meta tags for all pages
+4. Customer testimonials
