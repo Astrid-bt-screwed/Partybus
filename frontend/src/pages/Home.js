@@ -7,7 +7,7 @@ import BusCard from '../components/BusCard';
 import FAQ from '../components/FAQ';
 import { buses, eventTypes, faqData, cities } from '../data/siteData';
 
-const HERO_IMAGE = 'https://customer-assets.emergentagent.com/job_2f76f164-136b-422a-ab2e-323f91ed41f1/artifacts/e65ougnu_1775306555569-019d5883-bfe2-7859-83d3-232bc27de9df.jpeg';
+const HERO_IMAGE = 'https://customer-assets.emergentagent.com/job_2f76f164-136b-422a-ab2e-323f91ed41f1/artifacts/hws4pfos_bus1.jpeg';
 const SCHOOL_BUS_IMAGE = 'https://customer-assets.emergentagent.com/job_2f76f164-136b-422a-ab2e-323f91ed41f1/artifacts/rol6rqe1_1775310423742-019d58be-8e6e-794f-a341-3ecd1c47be49.png';
 const DOUBLE_DECKER_IMAGE = 'https://customer-assets.emergentagent.com/job_2f76f164-136b-422a-ab2e-323f91ed41f1/artifacts/0c6noyb8_%D0%A1%D1%82%D1%8E%D0%B0%D1%80%D0%B4%D0%B5%D1%81%D1%81%D0%B0%20%D0%BD%D0%B0%20%D0%B0%D0%B2%D1%81%D1%82%D1%80%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%BC%20%D0%BB%D1%83%D0%B3%D1%83.png';
 
