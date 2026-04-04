@@ -16,6 +16,8 @@ import Maturaball from './pages/events/Maturaball';
 import Hochzeit from './pages/events/Hochzeit';
 import Wien from './pages/cities/Wien';
 import Linz from './pages/cities/Linz';
+import Wels from './pages/cities/Wels';
+import Steyr from './pages/cities/Steyr';
 import Salzburg from './pages/cities/Salzburg';
 import Graz from './pages/cities/Graz';
 
@@ -45,6 +47,8 @@ function App() {
             <Route path="/hochzeit" element={<Hochzeit />} />
             <Route path="/partybus-wien" element={<Wien />} />
             <Route path="/partybus-linz" element={<Linz />} />
+            <Route path="/partybus-wels" element={<Wels />} />
+            <Route path="/partybus-steyr" element={<Steyr />} />
             <Route path="/partybus-salzburg" element={<Salzburg />} />
             <Route path="/partybus-graz" element={<Graz />} />
           </Routes>

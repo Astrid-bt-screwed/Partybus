@@ -214,8 +214,10 @@ export const features = [
 ];
 
 export const cities = [
-  { name: "Wien", link: "/partybus-wien" },
   { name: "Linz", link: "/partybus-linz" },
+  { name: "Wels", link: "/partybus-wels" },
+  { name: "Steyr", link: "/partybus-steyr" },
+  { name: "Wien", link: "/partybus-wien" },
   { name: "Salzburg", link: "/partybus-salzburg" },
   { name: "Graz", link: "/partybus-graz" }
 ];
