@@ -65,7 +65,7 @@ const Navbar = () => {
               </Link>
               {link.dropdown && (
                 <div className="absolute top-full left-0 mt-4 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300">
-                  <div className="glass rounded-xl p-2 min-w-[180px]">
+                  <div className="rounded-xl p-2 min-w-[180px] bg-[#111111] border border-white/10 shadow-2xl shadow-black/60">
                     {link.dropdown.map((item) => (
                       <Link
                         key={item.name}
