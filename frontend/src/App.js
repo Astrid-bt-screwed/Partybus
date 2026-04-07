@@ -14,6 +14,7 @@ import Geburtstag from './pages/events/Geburtstag';
 import Firmenfeier from './pages/events/Firmenfeier';
 import Maturaball from './pages/events/Maturaball';
 import Hochzeit from './pages/events/Hochzeit';
+import Striptease from './pages/events/Striptease';
 import Wien from './pages/cities/Wien';
 import Linz from './pages/cities/Linz';
 import Wels from './pages/cities/Wels';
@@ -45,6 +46,7 @@ function App() {
             <Route path="/firmenfeier" element={<Firmenfeier />} />
             <Route path="/maturaball" element={<Maturaball />} />
             <Route path="/hochzeit" element={<Hochzeit />} />
+            <Route path="/striptease" element={<Striptease />} />
             <Route path="/partybus-wien" element={<Wien />} />
             <Route path="/partybus-linz" element={<Linz />} />
             <Route path="/partybus-wels" element={<Wels />} />

@@ -29,6 +29,7 @@ const Navbar = () => {
       { name: 'Firmenfeier', path: '/firmenfeier' },
       { name: 'Maturaball', path: '/maturaball' },
       { name: 'Hochzeit', path: '/hochzeit' },
+      { name: 'Striptease', path: '/striptease' },
     ]},
     { name: 'Preise', path: '/preise' },
     { name: 'Ablauf', path: '/ablauf' },
