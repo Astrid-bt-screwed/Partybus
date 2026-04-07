@@ -5,7 +5,7 @@ import { Building, Users, Award, Calendar, ArrowRight } from 'lucide-react';
 import { buses } from '../../data/siteData';
 import BusCard from '../../components/BusCard';
 
-const FIRMEN_IMAGE = 'https://customer-assets.emergentagent.com/job_2f76f164-136b-422a-ab2e-323f91ed41f1/artifacts/gshu41da_schoolbus_austria.png';
+const FIRMEN_IMAGE = 'https://customer-assets.emergentagent.com/job_2f76f164-136b-422a-ab2e-323f91ed41f1/artifacts/v248sf51_%D0%9A%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%BD%D0%B0%D1%8F%20%D0%B2%D0%B5%D1%87%D0%B5%D1%80%D0%B8%D0%BD%D0%BA%D0%B0%20%D0%B2%20%D0%B0%D0%B2%D1%82%D0%BE%D0%B1%D1%83%D1%81%D0%B5.jpg';
 
 const fadeUp = {
   initial: { opacity: 0, y: 30 },
